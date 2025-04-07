@@ -136,50 +136,74 @@
     display: flex;
     background-color:rgb(229, 234, 247);
     margin: 3rem;
-   gap: 5%;   
+    padding-top: 5%;
 }
 
-#customerSupportIcon{
-   width: 10%;
 
-}
 
-.premiumQuality,.warrantryProtection,.timelyShipping,.sustainableArtistry{
+.premiumQuality,.warantyProtection,.timelyShipping,.sustainableArtistry{
      display: flex;
 
 }
 
 
 #trophyImage{
-height: 50%;
+width: 40%;
+height: 40%;
+
+}
+
+#warrantyImage{
+    width: 30%;
+    height: 40%;
+}
+
+#shippingImage{
+    width: 30%;
+    height: 40%;
+    margin-top: 5%;
+}
+#supportImage{
+    width: 30%;
+    height: 40%;
+
 }
 
 .premiumContent{
-    border: solid 2px red;
+   
     width: 10rem;
 }
 .warrantyContent{
-    border: solid 2px red;
+    .aboutRasiContent{
+       
+        width: 40%;
+        font-size: 1.5em;
+    }
+    
+    #aboutRasisubheading{
+        color: #16af16;
+    }
+    #aboutRasiHeading{
+        font-size: 3.5rem;
+        width: 100%;
+    
+    }
+ 
     width: 10rem;
   
 }
 
 .shippingContent{
-    border: solid 2px red;
+ 
     width: 20rem;
 }
 
 .supportContent{
-    border: solid 2px red;
+  
     width: 25rem;
 
 }
 
-#shippingImage{
-    width: 50%;
-    height: 60%;
-    margin-top: 10%;
-}
 
 .printingTechniques{
     margin: 1em;
@@ -194,7 +218,7 @@ height: 50%;
     text-align: center;
     font-size: 2em;
     width: 60%;
-    border: solid 2px red;
+ 
     margin-left: 20%;
 }
 
@@ -290,6 +314,10 @@ height: 50%;
     width: 30%;
 }
 
+
+#raymondImage{
+    width: 30%;
+ }
 .partnerRaymondInfo{
     margin-top: 10%;
 }
@@ -299,10 +327,7 @@ height: 50%;
 .partnerAdityaInfo{
     margin-top: 10%;
 }
-#raymondLogo{
-   width: 20%;
 
-}
 
 .clientReview{
     display: flex;
@@ -416,4 +441,1268 @@ footer{
         gap: 5%;
     }
 }
+
+
+
+
+@media only screen and (max-width: 800px) and (min-width: 501px) {
+      
+
+
+    .header{
+        margin: 0px;
+    }
+    
+    
+    #headerTitle{
+        background-color: #16af16;
+        color: white;
+       text-align: center;
+       font-size: 1rem;
+    }
+    
+    
+    
+    
+    .heroSection{
+       
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(Images/rasiHeader.jpg);
+        width: 100vw;
+        height: 100vh;
+     color: white;
+    
+    
+    
+    
+     .header{
+        margin: 0px;
+    }
+    
+    
+   
+    
+    .navigation{
+        display: block;
+    
+    }
+    
+    .navBar{
+       display: flex;
+       gap: 2rem;
+       margin-left: 0rem;
+       margin-top: 1rem;
+       font-size: 1.5rem;
+       margin-bottom: 4%;
+       
+       
+    }
+    
+    .navBar a{
+        text-decoration: none;
+        color: white;
+    
+    
+     }
+    
+     .heroContent{
+       text-align: center;
+       margin-top: 0rem;
+    
+     }
+    
+     #heroHeading{
+        font-size:3.5rem ;
+        width: 95%;
+        margin-left: 0%;
+    
+     }
+    
+     #heroSubheading{
+        font-size:1.5rem ;
+        width: 90%;
+        margin-left: 5%;
+    
+     }
+    
+     
+    
+    }
+    
+
+
+.aboutRasi{
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 2rem;
+     
+
+    #aboutImage{
+        width: 100%;
+
+    }
+
+
+.aboutRasiContent{
+   
+    width: 100%;
+    font-size: 1em;
+}
+
+#aboutRasisubheading{
+    color: #16af16;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+#aboutRasiHeading{
+    font-size: 2rem;
+    width: 100%;
+
+}}
+
+
+.rasiSellingPoints{
+    display: block;
+    margin: 0rem;
+   
+}
+
+
+.printingTechniques{
+
+    #techniquesSubheading{
+        width: 100%;
+        font-size: 1em;
+        margin-left: 0%;
+    }
+
+    .techniquesContent{
+        display: block;
+    }
+    #textileImage,#uvScreenImage,#fourColorImage{
+        width: 100%;
+    }
+
+}
+
+
+   .partneredCompanies{
+    display: block;
+
+    
+    .partneredCompanies{
+        display: flex;
+        gap: 10%;
+    }
+    
+    .partnerAditya{
+      
+       display: flex;
+       gap: 15%;
+    
+    }
+    
+    #adityaImage{
+       width: 40%;
+       margin-top:10% ;
+    
+    }
+    .partnerArvind{
+      
+        width: 100%;
+        gap: 15%;
+    
+    }
+    
+    #arvindImage{
+        width: 30%;
+        margin-bottom: 0%;
+    }
+
+    .partnerRaymond{
+     
+        display: flex;
+        gap: 15%;
+        width: 100%;
+        margin-top: 10%;
+    }
+    #raymondImage{
+        width: 40%;
+    }
+    
+
+   }
+
+
+   .clientReview{
+    display:  block;
+    margin: 0%;
+
+
+    .reviews{
+        width: 100% ;
+    }
+    #clientReviewImage{
+        width: 100%;
+    }
+}
+
+
+.companyLogos{
+    display: block;
+    gap: 0%;
+
+    #arvindLogo{
+        width: 40%;
+     
+     }
+     #gapLogo{
+        width: 30%;
+        height: 20%;
+        margin-left: 10%;
+        margin-top: -15%;
+     }
+     #myntraLogo{
+         width: 40%;
+     }
+     #pumaLogo{
+         width: 40%;
+     }
+     
+     #converseLogo{
+        width: 40%;
+     }
+     #markalarLogo{
+         width: 40%;
+         margin-left: 10%;
+     }
+}
+
+
+
+
+ 
+.productDisplay{
+    margin-top: 2em;
+ 
+
+    #displayHeading{
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 6%;
+    
+    }
+    
+    #displayContent{
+      font-size: 1em;
+      color: grey;
+      text-align: center;
+    
+    }
+    .displayImages{
+        display: block;
+    }
+    
+    #textileImage{
+        width: 100%;
+    
+    }
+    #dressPatternImage, #patternsImage {
+        border-radius: 2em;
+        width: 100%;
+    }
+    #productImage{
+        width: 100%;
+        margin-left: 0%;
+    }
+ }
+ 
+
+
+
+ .mapBackgound{
+   
+    height: 100vh;
+    border-radius: 2em;
+}
+ .contactInfo{
+   
+    width: 70%;
+    margin-left: 5%;
+    font-size: 1em;
+}
+ 
+
+
+
+footer{
+   
+    display: block;
+   
+    margin-top: 10%;
+     
+   
+    .footerContent{
+
+     
+        width: 100%;
+    }
+
+    .headOffice{
+     
+        width: 100%;
+
+    }
+
+    .footerContacts{
+      
+        display: block;
+        gap: 5%;
+    }
+
+
+}
+    
+    
+    
+    
+    
+        
+    }
+@media only screen and (max-width:500px) and (min-width:0px){
+   
+    .heroSection{
+         height: 100vh;
+
+     
+    
+
+    .navigation{
+            display: block;
+            
+
+          }
+
+    .navBar{
+   display: block;
+   
+   margin-left: 0rem;
+   margin-top: 0rem;
+   margin-bottom: 1rem;
+   font-size: 1rem;
+   
+   
+   
+    }
+
+    .navBar a{
+          display: block;
+    
+          background-color: rgb(49, 70, 18);
+     }
+     .navBar a :hover{
+           background-color: blue;
+
+     }
+      
+ #heroHeading{
+    font-size:2.5rem ;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -50%;
+   
+
+ }
+
+ #heroSubheading{
+    font-size:1.2rem ;
+    width: 100%;
+    margin-left: 0px;
+  
+
+ }}
+
+
+
+.aboutRasi{
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 2rem;
+     
+
+    #aboutImage{
+        width: 100%;
+
+    }
+
+
+.aboutRasiContent{
+   
+    width: 100%;
+    font-size: 1em;
+}
+
+#aboutRasisubheading{
+    color: #16af16;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+#aboutRasiHeading{
+    font-size: 2rem;
+    width: 100%;
+
+}}
+
+
+.rasiSellingPoints{
+    display: block;
+    margin: 0rem;
+   
+}
+
+
+
+.printingTechniques{
+
+    #techniquesSubheading{
+        width: 100%;
+        font-size: 1em;
+        margin-left: 0%;
+    }
+
+    .techniquesContent{
+        display: block;
+    }
+    #textileImage,#uvScreenImage,#fourColorImage{
+        width: 100%;
+    }
+
+}
+
+
+   .partneredCompanies{
+    display: block;
+
+    
+    .partneredCompanies{
+        display: flex;
+        gap: 10%;
+    }
+    
+    .partnerAditya{
+      
+       display: flex;
+       gap: 15%;
+    
+    }
+    
+    #adityaImage{
+       width: 40%;
+       margin-top:10% ;
+    
+    }
+    .partnerArvind{
+      
+        width: 100%;
+        gap: 15%;
+    
+    }
+    
+    #arvindImage{
+        width: 30%;
+        margin-bottom: 0%;
+    }
+
+    .partnerRaymond{
+     
+        display: flex;
+        gap: 15%;
+        width: 100%;
+        margin-top: 10%;
+    }
+    #raymondImage{
+        width: 40%;
+    }
+    
+
+   }
+
+   .clientReview{
+    display:  block;
+    margin: 0%;
+
+
+    .reviews{
+        width: 100% ;
+    }
+    #clientReviewImage{
+        width: 100%;
+    }
+}
+
+
+
+.companyLogos{
+    display: block;
+    gap: 4%;
+    justify-content: center;
+    padding-left: 30%;
+
+
+    #arvindLogo{
+        width: 50%;
+     
+     }
+     #gapLogo{
+        width: 50%;
+     }
+     #myntraLogo{
+         width: 50%;
+     }
+     #pumaLogo{
+         width: 50%;
+     }
+     
+     #markalarLogo{
+         width: 50%;
+     }
+    
+}
+
+
+.productDisplay{
+    margin-top: 2em;
+ 
+
+    #displayHeading{
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 6%;
+    
+    }
+    
+    #displayContent{
+      font-size: 1em;
+      color: grey;
+      text-align: center;
+    
+    }
+    .displayImages{
+        display: block;
+    }
+    
+    #textileImage{
+        width: 100%;
+    
+    }
+    #dressPatternImage, #patternsImage {
+        border-radius: 2em;
+        width: 100%;
+    }
+    #productImage{
+        width: 100%;
+        margin-left: 0%;
+    }
+ }
+ 
+
+
+ .mapBackgound{
+   
+    height: 100vh;
+    border-radius: 2em;
+}
+ .contactInfo{
+   
+    width: 70%;
+    margin-left: 5%;
+    font-size: 1em;
+}
+ 
+
+
+
+footer{
+   
+    display: block;
+   
+    margin-top: 10%;
+     
+   
+    .footerContent{
+
+     
+        width: 100%;
+    }
+
+    .headOffice{
+     
+        width: 100%;
+
+    }
+
+    .footerContacts{
+      
+        display: block;
+        gap: 5%;
+    }
+
+
+}
+
+}
+ 
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 801px) {
+      
+
+
+    .header{
+        margin: 0px;
+    }
+    
+    
+    #headerTitle{
+        background-color: #16af16;
+        color: white;
+       text-align: center;
+       font-size: 2rem;
+    }
+    
+    
+    
+    
+    .heroSection{
+       
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(Images/rasiHeader.jpg);
+        width: 100vw;
+        height: 100vh;
+     color: white;
+    
+    
+    
+    
+     .header{
+        margin: 0px;
+    }
+    
+    
+   
+    
+    .navigation{
+        display: block;
+    
+    }
+    
+    .navBar{
+       display: flex;
+       gap: 2rem;
+       margin-left: 0rem;
+       margin-top: 1rem;
+       font-size: 2.5rem;
+       margin-bottom: 4%;
+       
+       
+    }
+    
+    
+    
+     .heroContent{
+       text-align: center;
+       margin-top: 0rem;
+    
+     }
+    
+     #heroHeading{
+        font-size:6rem ;
+        width: 95%;
+        margin-left: 0%;
+    
+     }
+    
+     #heroSubheading{
+        font-size:2rem ;
+        width: 90%;
+        margin-left: 5%;
+    
+     }
+    
+     
+    
+    }
+    
+
+
+.aboutRasi{
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 2rem;
+     
+
+    #aboutImage{
+        width: 100%;
+
+    }
+
+
+.aboutRasiContent{
+   
+    width: 100%;
+    font-size: 2em;
+}
+
+#aboutRasisubheading{
+    color: #16af16;
+    margin-top: 5%;
+    font-size: 3em;
+}
+#aboutRasiHeading{
+    font-size: 4rem;
+    width: 100%;
+
+}}
+
+
+.rasiSellingPoints{
+    display: block;
+    margin: 0rem;
+   
+}
+
+
+.printingTechniques{
+
+    #techniquesSubheading{
+        width: 100%;
+        font-size: 2em;
+        margin-left: 0%;
+    }
+
+    .techniquesContent{
+        display: block;
+        font-size: 2em;
+    }
+    #textileImage,#uvScreenImage,#fourColorImage{
+        width: 100%;
+    }
+
+}
+
+
+   .partneredCompanies{
+    display: block;
+
+    
+    .partneredCompanies{
+        display: flex;
+        gap: 10%;
+    }
+    
+    .partnerAditya{
+      
+       display: flex;
+       gap: 15%;
+    
+    }
+    
+    #adityaImage{
+       width: 40%;
+       margin-top:10% ;
+    
+    }
+    .partnerArvind{
+      
+        width: 100%;
+        gap: 15%;
+    
+    }
+    
+    #arvindImage{
+        width: 30%;
+        margin-bottom: 0%;
+    }
+
+    .partnerRaymond{
+     
+        display: flex;
+        gap: 15%;
+        width: 100%;
+        margin-top: 10%;
+    }
+    #raymondImage{
+        width: 40%;
+    }
+    
+
+   }
+
+
+   .clientReview{
+    display:  block;
+    margin: 0%;
+
+
+    .reviews{
+        width: 100% ;
+    }
+    #clientReviewImage{
+        width: 100%;
+    }
+}
+
+
+.companyLogos{
+    display: block;
+    gap: 0%;
+
+    #arvindLogo{
+        width: 40%;
+     
+     }
+     #gapLogo{
+        width: 30%;
+        height: 20%;
+        margin-left: 10%;
+        margin-top: -15%;
+     }
+     #myntraLogo{
+         width: 40%;
+     }
+     #pumaLogo{
+         width: 40%;
+     }
+     
+     #converseLogo{
+        width: 40%;
+     }
+     #markalarLogo{
+         width: 40%;
+         margin-left: 10%;
+     }
+}
+
+
+
+
+ 
+.productDisplay{
+    margin-top: 2em;
+ 
+
+    #displayHeading{
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 6%;
+    
+    }
+    
+    #displayContent{
+      font-size: 2em;
+      color: grey;
+      text-align: center;
+    
+    }
+    .displayImages{
+        display: block;
+    }
+    
+    #textileImage{
+        width: 100%;
+    
+    }
+    #dressPatternImage, #patternsImage {
+        border-radius: 2em;
+        width: 100%;
+    }
+    #productImage{
+        width: 100%;
+        margin-left: 0%;
+    }
+ }
+ 
+
+
+
+ .mapBackgound{
+   
+    height: 100vh;
+    border-radius: 2em;
+}
+ .contactInfo{
+   
+    width: 70%;
+    margin-left: 5%;
+    font-size: 2em;
+}
+ 
+
+
+
+footer{
+   
+    display: block;
+    font-size: 2em;
+    margin-top: 10%;
+     
+   
+    .footerContent{
+
+     
+        width: 100%;
+    }
+
+    .headOffice{
+     
+        width: 100%;
+
+    }
+
+    .footerContacts{
+      
+        display: block;
+        gap: 5%;
+    }
+
+
+}
+    
+    
+    
+    
+    
+        
+    }
+
+
+
+@media only screen and (max-width: 1500px) and (min-width: 1201px) {
+      
+
+
+    .header{
+        margin: 0px;
+    }
+    
+    
+    #headerTitle{
+        background-color: #16af16;
+        color: white;
+       text-align: center;
+       font-size: 2rem;
+    }
+    
+    
+    
+    
+    .heroSection{
+       
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(Images/rasiHeader.jpg);
+        width: 100vw;
+        height: 100vh;
+     color: white;
+    
+    
+    
+    
+     .header{
+        margin: 0px;
+    }
+    
+    
+   
+    
+    .navigation{
+        display: block;
+    
+    }
+    
+    .navBar{
+       display: flex;
+       gap: 2rem;
+       margin-left: 0rem;
+       margin-top: 1rem;
+       font-size: 2.5rem;
+       margin-bottom: 4%;
+       
+       
+    }
+    
+    
+    
+     .heroContent{
+       text-align: center;
+       margin-top: 0rem;
+    
+     }
+    
+     #heroHeading{
+        font-size:6rem ;
+        width: 95%;
+        margin-left: 0%;
+    
+     }
+    
+     #heroSubheading{
+        font-size:2rem ;
+        width: 90%;
+        margin-left: 5%;
+    
+     }
+    
+     
+    
+    }
+    
+
+
+.aboutRasi{
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 2rem;
+     
+
+    #aboutImage{
+        width: 100%;
+
+    }
+
+
+.aboutRasiContent{
+   
+    width: 100%;
+    font-size: 2em;
+}
+
+#aboutRasisubheading{
+    color: #16af16;
+    margin-top: 5%;
+    font-size: 3em;
+}
+#aboutRasiHeading{
+    font-size: 4rem;
+    width: 100%;
+
+}}
+
+
+.rasiSellingPoints{
+    display: block;
+    margin: 0rem;
+   
+}
+
+
+.printingTechniques{
+
+    #techniquesSubheading{
+        width: 100%;
+        font-size: 2em;
+        margin-left: 0%;
+    }
+
+    .techniquesContent{
+        display: block;
+        font-size: 2em;
+    }
+    #textileImage,#uvScreenImage,#fourColorImage{
+        width: 100%;
+    }
+
+}
+
+
+.partneredCompanies{
+    display: flex;
+    gap: 2%;
+
+
+    .partnerAditya{
+  
+        display: flex;
+     
+     }
+     
+     #adityaImage{
+        width: 40%;
+     
+     }
+     .partnerArvind{
+       
+         display: flex;
+         width: 30%;
+         gap: 5%;
+     
+     }
+     
+     #arvindImage{
+         width: 30%;
+         margin-bottom: 15%;
+     }
+     .partnerRaymond{
+      
+         display: flex;
+         gap: 5%;
+         width: 30%;
+     }
+
+     #raymondImage{
+        width: 30%;
+     }
+     
+     .partnerRaymondInfo{
+         margin-top: 10%;
+     }
+     .partnerArvindInfo{
+       margin-top: 8%;
+     }
+     .partnerAdityaInfo{
+         margin-top: 10%;
+     }
+     
+}
+
+
+
+
+
+   .clientReview{
+    display:  block;
+    margin: 0%;
+
+
+    .reviews{
+        width: 100% ;
+    }
+    #clientReviewImage{
+        width: 100%;
+    }
+}
+
+
+.companyLogos{
+
+display: flex;
+gap: 4%;
+
+
+#arvindLogo{
+   width: 10%;
+
+}
+#gapLogo{
+   width: 5%;
+}
+#myntraLogo{
+    width: 10%;
+}
+#pumaLogo{
+    width: 10%;
+}
+
+#markalarLogo{
+    width: 10%;
+}
+
+}
+
+
+
+.productDisplay{
+    margin-top: 2em;
+ 
+ }
+ 
+ #displayHeading{
+     font-size: 3rem;
+     text-align: center;
+     margin-top: 6%;
+ 
+ }
+ 
+ #displayContent{
+   font-size: 1em;
+   color: grey;
+   text-align: center;
+ 
+ }
+ .displayImages{
+     display: flex;
+     gap: 10%;
+ }
+ 
+ #textileImage{
+     width: 30%;
+ 
+ }
+ #dressPatternImage, #patternsImage {
+     border-radius: 2em;
+     width: 30%;
+
+ }
+ #patternsImage{
+    height: 50%;
+
+ }
+
+
+ #productImage{
+     width: 90%;
+     border-radius: 2em;
+     margin-top: 5%;
+     margin-left: 5%;
+ }
+ 
+
+
+ .mapBackgound{
+   
+    height: 100vh;
+    border-radius: 2em;
+}
+ .contactInfo{
+   
+    width: 70%;
+    margin-left: 5%;
+    font-size: 2em;
+}
+ 
+
+
+
+footer{
+   
+    display: block;
+    font-size: 2em;
+    margin-top: 10%;
+     
+   
+    .footerContent{
+
+     
+        width: 100%;
+    }
+
+    .headOffice{
+     
+        width: 100%;
+
+    }
+
+    .footerContacts{
+      
+        display: block;
+        gap: 5%;
+    }
+
+
+}
+    
+    
+    
+    
+    
+        
+    }
+
 
