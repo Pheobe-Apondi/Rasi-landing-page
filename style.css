@@ -1,0 +1,419 @@
+.body{
+    font-size: 16px;
+}
+
+
+.header{
+    margin: 0px;
+}
+
+
+#headerTitle{
+    background-color: #16af16;
+    color: white;
+   text-align: center;
+   font-size: 1rem;
+}
+
+
+
+
+.heroSection{
+   
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(Images/rasiHeader.jpg);
+    width: 100vw;
+    height: 100vh;
+ color: white;
+
+
+}
+
+
+
+.navigation{
+    display: flex;
+
+}
+
+.navBar{
+   display: flex;
+   gap: 10rem;
+   margin-left: 30rem;
+   margin-top: 3rem;
+   font-size: 1.5rem;
+   
+   
+}
+
+.navBar a{
+    text-decoration: none;
+    color: white;
+
+
+ }
+
+ .heroContent{
+   text-align: center;
+   margin-top: 15rem;
+
+ }
+
+ #heroHeading{
+    font-size:7rem ;
+    width: 90%;
+    margin-left: 5%;
+
+ }
+
+ #heroSubheading{
+    font-size:2rem ;
+    width: 60%;
+    margin-left: 20%;
+
+ }
+
+ #heroSectionButton{
+    background-color: white ;
+    filter: opacity(50%);   
+    font-size: 1.5em;
+     padding: 1em 2em;
+    border-radius: 1em;
+    border: none;
+ }
+
+ .stats{
+    margin: 1rem;
+
+ }
+ #statsHeading{
+    text-align: center;
+ }
+
+ .aboutRasi{
+    margin-left: 10%;
+    margin-top: 7%;
+    display: flex;
+    gap: 5rem;
+    
+ }
+.aboutRasiContent{
+   
+    width: 40%;
+    font-size: 1.5em;
+}
+
+#aboutRasisubheading{
+    color: #16af16;
+}
+#aboutRasiHeading{
+    font-size: 3.5rem;
+    width: 100%;
+
+}
+
+#knowMoreButton,#contactUsButton{
+    padding: 1em;
+    border-radius: 3em;
+    font-size: 1em;
+
+}
+
+#arrowIcon{
+   font-size: 1em;
+
+}
+#knowMoreButton:hover{
+    background-color: green;
+    color: white;
+}
+
+#contactUsButton:hover{
+    background-color: green;
+    color: white;
+}
+
+.rasiSellingPoints{
+    display: flex;
+    background-color:rgb(229, 234, 247);
+    margin: 3rem;
+   gap: 5%;   
+}
+
+#customerSupportIcon{
+   width: 10%;
+
+}
+
+.premiumQuality,.warrantryProtection,.timelyShipping,.sustainableArtistry{
+     display: flex;
+
+}
+
+
+#trophyImage{
+height: 50%;
+}
+
+.premiumContent{
+    border: solid 2px red;
+    width: 10rem;
+}
+.warrantyContent{
+    border: solid 2px red;
+    width: 10rem;
+  
+}
+
+.shippingContent{
+    border: solid 2px red;
+    width: 20rem;
+}
+
+.supportContent{
+    border: solid 2px red;
+    width: 25rem;
+
+}
+
+#shippingImage{
+    width: 50%;
+    height: 60%;
+    margin-top: 10%;
+}
+
+.printingTechniques{
+    margin: 1em;
+}
+#techniquesHeading{
+    font-size: 4rem;
+    text-align: center;
+}
+
+#techniquesSubheading{
+    color: grey;
+    text-align: center;
+    font-size: 2em;
+    width: 60%;
+    border: solid 2px red;
+    margin-left: 20%;
+}
+
+.techniquesContent{
+    display: flex;
+}
+
+#textileImage,#uvScreenImage,#fourColorImage{
+    width: 80%;
+    border-radius: 2em;
+}
+#textileImage{
+    height: 78%;
+}
+
+.companyLogos{
+    display: flex;
+    gap: 4%;
+}
+
+#arvindLogo{
+   width: 10%;
+
+}
+#gapLogo{
+   width: 5%;
+}
+#myntraLogo{
+    width: 10%;
+}
+#pumaLogo{
+    width: 10%;
+}
+
+#markalarLogo{
+    width: 10%;
+}
+
+.testimonials{
+
+
+    h1{
+        font-size: 4rem;
+        text-align: center;
+    
+
+    }
+
+    p{
+        font-size: 1.5rem ;
+        color: grey;
+
+    }
+}
+
+
+
+#testimonialsContent{
+    font-size: 2rem ;
+    color: grey;
+}
+.partneredCompanies{
+    display: flex;
+    gap: 10%;
+}
+
+.partnerAditya{
+  
+   display: flex;
+
+}
+
+#adityaImage{
+   width: 40%;
+
+}
+.partnerArvind{
+  
+    display: flex;
+    width: 30%;
+    gap: 5%;
+
+}
+
+#arvindImage{
+    width: 30%;
+    margin-bottom: 15%;
+}
+.partnerRaymond{
+ 
+    display: flex;
+    gap: 5%;
+    width: 30%;
+}
+
+.partnerRaymondInfo{
+    margin-top: 10%;
+}
+.partnerArvindInfo{
+  margin-top: 5%;
+}
+.partnerAdityaInfo{
+    margin-top: 10%;
+}
+#raymondLogo{
+   width: 20%;
+
+}
+
+.clientReview{
+    display: flex;
+    gap: 5%;
+    margin: 10%;
+}
+.reviews{
+    width: 60% ;
+}
+#clientReviewImage{
+    width: 40%;
+}
+.productDisplay{
+   margin-top: 2em;
+
+}
+
+#displayHeading{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 6%;
+
+}
+
+#displayContent{
+  font-size: 1em;
+  color: grey;
+  text-align: center;
+
+}
+.displayImages{
+    display: flex;
+}
+
+#textileImage{
+    width: 30%;
+
+}
+#dressPatternImage, #patternsImage {
+    border-radius: 2em;
+}
+#productImage{
+    width: 90%;
+    border-radius: 2em;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.mapBackgound{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(https://the-founders.co.il/wp-content/uploads/2021/10/contact-bg-map-mobile.webp);
+    width: 100vw;
+    height: 80vh;
+    border-radius: 2em;
+}
+
+.contactInfo{
+    background-color: white;
+    width: 20%;
+    border-radius: 2em;
+    padding: 2em;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+
+#callIcon{
+    background-color: black;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+footer{
+    padding: 1em;
+    background-color: rgb(12, 12, 46);
+    color: white;
+    display: flex;
+    gap: 10%;
+    font-size: 1em;
+     
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    #footerImage{
+         border-radius: 1em;  
+         margin-top: 2em; 
+         margin-left: 6em;      
+    }
+
+    .footerContent{
+
+     
+        width: 15%;
+    }
+
+    .headOffice{
+     
+        width: 30%;
+
+    }
+
+    .footerContacts{
+      
+        display: flex;
+        gap: 5%;
+    }
+}
+
